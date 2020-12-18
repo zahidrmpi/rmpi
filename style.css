@@ -1,0 +1,110 @@
+/*
+Theme Name: RMPI
+Theme URI:
+Author: TrustDevs
+Author URI: https://trustdevs.com
+Description: First Minimal Theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, education
+Text Domain: rmpi
+*/
+body {
+    font-family: 'Kalpurush', Arial, sans-serif !important;
+   background-color: aquamarine;
+}
+.main-area-bg{
+    background-color: #fff;
+    padding: 0;
+}
+/* header area start */
+header{
+    /* background-color: #ccc; */
+}
+.header-bg{
+    padding: 10px 0;
+    border-bottom: 5px solid #992C2C;
+    border-top: 5px solid #992C2C;
+ }
+.institute_title {padding: 32px 0px;
+}
+.institute_title h1 {
+    font-weight: 700;
+    padding: 0px;
+    margin: 0px;
+}
+.institute_title p {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.comunicating_address p {
+    line-height: 5px;
+}
+.comunicating_address {
+    margin: 0;
+    padding: 53px 10px;
+    /* text-align: right; */
+}
+/* header area end */
+
+/* slider area start */
+.slider-item{
+    background-image: url(assets/img/slider-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}
+.owl-dots {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    text-align: center;
+  }
+/* slider area end */
+
+/* main news scroll area start */
+.news_scroll_area_content{
+    font-size: 20px;
+    background-color:#E6E7E8 ;
+}
+/* main news scroll area end */
+
+/* main section area start */
+section.main_section_area {
+    margin-top: 10px;
+}
+/* main section area end */
+
+/* content area start  */
+.content {
+    background: #ccc;
+    padding: 10px;
+}
+/* content area end  */
+
+/* sidebar area start */
+.sidebar_name_title {
+    background: #FFE603;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+.sidebar_card {
+    margin-bottom: 5px;
+}
+/* sidebar area start */
+
+/* footer area start */
+.footer_area {
+    background-color: #ccc;
+    border-top: 5px solid #992C2C;
+    padding: 25px 0;
+    text-align: center;
+    margin: 0px;
+}
+/* footer area end */
